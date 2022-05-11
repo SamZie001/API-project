@@ -1,0 +1,40 @@
+span{
+    color: black;
+}
+h3{
+    color: white;
+}
+
+.head{
+    border: none;
+    border-top-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    background: crimson;
+    margin: 0 auto;
+    margin-top: 50px;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bolder;
+}
+.result-box{
+    box-sizing: border-box;
+    border-radius: 10px;
+    border: 3px solid crimson;
+    margin: 10px auto;
+    width: 1100px;
+    padding: 10px;
+    background-color: royalblue;
+}
+
+.address, .company{
+    box-sizing: border-box;
+    width: 1000px;
+    margin: 0 auto;
+    padding-left: 12px;
+    border: none;
+    background: blue;
+    color: white;
+}
